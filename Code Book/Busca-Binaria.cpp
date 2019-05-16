@@ -25,7 +25,7 @@ int main(){_
     int n,q,num,pos,t=0;
     while(cin>>n>>q && (n||q)){
         for(int i=0;i<n;++i) cin>>vet[i];
-        sort(vet,vet+n);
+        sort(vet,vet+n); //Ordenação do vetor, para o princípio de busca binária
         cout<<"CASE# "<<++t<<":"<<endl;
         for(int i=0;i<q;++i){
             cin>>num;
